@@ -1,7 +1,7 @@
 # print("PYTHON: Everything is object !")
 
-message = "PYTHON: Everything is object !"
-print(message)
+a = 100
+print("a:", a)
 
-result = type(message)
-print("result:", result)
+message = "Hello World!"
+print(message)
