@@ -110,10 +110,25 @@
 
 // MIT ALGORITHM TASK E
 
-function getReverse(str) {
-  return str.split('').reverse().join('');
+// function getReverse(str) {
+//   return str.split('').reverse().join('');
+// }
+
+// // Test
+// console.log(getReverse("hello")); // "olleh"
+// console.log(getReverse("world")); // "dlrow"
+
+// MIT ALGORITHM TASK F 
+
+function findDoublers(str) {
+  const seen = new Set();
+  for (const ch of str) {
+    if (seen.has(ch)) return true;
+    seen.add(ch);
+  }
+  return false;
 }
 
-// Test
-console.log(getReverse("hello")); // "olleh"
-console.log(getReverse("world")); // "dlrow"
+// misol
+console.log(findDoublers("hello")); // true
+console.log(findDoublers("world")); // false
