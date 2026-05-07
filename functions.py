@@ -45,3 +45,18 @@ print("result3:", result3)
 
 result4 = give_greet("john")
 print("result4:", result4)
+
+
+print("===== Scope =====")
+b = 100  # 3
+
+# DEFINE
+
+
+def calculate(a):  # 2
+    c = a * b  # 1
+    print(f"the c value:{c}")
+
+
+# Call
+calculate(5)
