@@ -12,7 +12,7 @@ for ele in range_obj:
 print("===== DICTIONARY =======")
 # Dictionary is JSON object!
 person = {"name": "Justin", "age": 25, "single": True}
-person_obj = dict(name="Justin", age=25, single=true)
+person_obj = dict(name="Justin", age=25, single=True)
 print(f"the person: {preson}")
 print(f"the person_obj: {person_obj}")
 
