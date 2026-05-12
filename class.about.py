@@ -25,6 +25,10 @@ class Person():
     def say_age(self):
         print(f"{self.name} says I am {self.age}")
 
+    @classmethod
+    def explain(cls):
+        print("static method propeerty executed!")
+
 
 person1 = Person("Justin", 25)
 person2 = Person("Martin", 35)
@@ -41,7 +45,7 @@ print("======ordinary vs static properties=======")
 
 # static state
 new_message = Person.message
-print("new_message:" new_message)
+print("new_message:", new_message)
 
 # static method
 Person.explain()
