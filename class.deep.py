@@ -62,8 +62,8 @@ try:
 except Exception as err:
     print("No target state found:", err)
 
-print("owner before:", my_account.holder)  # state
 
-# my_account.change_ownership("Martin")
-my_account.holder = "Martin"
+# getter vs setter
+print("owner before:", my_account.holder)  # state
+my_account.holder = "Martin"  # state
 print("owner after:", my_account.holder)

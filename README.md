@@ -13,7 +13,7 @@ git status
 git add .
 git commit -m "feat: Initial Setup"
 
-get remote add origin https:github_address
+get remote add origin https://github_address
 git push origin master
 git pull origin master
 ```
@@ -27,5 +27,8 @@ git pull origin master
 - Class deep dive
 - Operation &Conditions
 - Loops
-- ...
-- 
+- Tuple
+- List
+- Array
+- Comprehension 
+- Debugging
