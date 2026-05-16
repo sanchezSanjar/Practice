@@ -24,11 +24,12 @@ git pull origin master
 - Function
 - Object
 - Class
-- Class deep dive
-- Operation &Conditions
+- Class deep dive > Encapsulation
+- Class deep dive > Inheritence Polimorphism
+- Operation & Conditions
 - Loops
 - Tuple
 - List
 - Array
 - Comprehension 
-- Debugging
+- Packages & Debugging
